@@ -1,0 +1,71 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.donut-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+/** Only for display purpose here **/
+.outer-circle {
+    margin: 20px;
+}
+
+.outer-circle {
+    width:150px;
+    height: 150px;
+    border-radius: 50%;
+    padding: 18px;
+}
+
+.circle-inside {
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    border-radius: 50%;
+}
+
+.circle-text-container {
+   text-align: center;
+    padding: 22px 0 0 0;
+}
+
+.text-title {
+    font-size: 22px;
+}
+
+.sub-title {
+    font-size: 25px;
+    font-weight: 600;
+}
+.outer-circle.circle-1 {
+    background-image: radial-gradient(circle at center, #405d27 50%, rgba(64, 93, 39, 0.9) 65%, #405d27 70% );
+}
+
+.circle-1 .sub-title {
+    color: #405d27;
+}
+
+.outer-circle.circle-2 {
+    background-image: radial-gradient(circle at center, #c83349 50%, rgba(200, 51, 73, 0.9) 65%, #c83349 70% );
+}
+
+.circle-2 .sub-title {
+    color: #c83349;
+}
+
+.outer-circle.circle-3 {
+    background-image: radial-gradient(circle at center, #622569 50%, rgba(98, 37, 105, 0.9) 65%, #622569 70% );
+}
+
+.circle-3 .sub-title {
+    color: #622569;
+}
+
+.outer-circle.circle-4 {
+    background-image: radial-gradient(circle at center, #feb236 50%, rgba(254, 178, 54, 0.9) 65%, #feb236 70% );
+}
+.circle-4 .sub-title {
+    color: #feb236;
+}
