@@ -1,0 +1,33 @@
+.container {
+    margin: 50px auto;
+    /**width: 800px; **/
+    border: 1px solid green;
+    min-height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.checkMark {
+    width: 16px;
+    height: 16px;
+    border: 2px solid #027a02;
+    border-radius: 3px;    
+    position: absolute;
+    cursor: pointer;
+}
+.checkMark.active {
+    background-color: #027a02;
+}
+
+.checkMark.active::after {
+    left: 4px;
+    position: absolute;
+    content: "";
+    width: 5px;
+    height: 10px;
+    display: block;
+    border: solid white;
+    border-width: 0px 3px 3px 0px;
+    transform: rotate(45deg);
+}
